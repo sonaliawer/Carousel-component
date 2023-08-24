@@ -1,0 +1,7 @@
+$web-font-path: "../assets/Fonts" !default;
+@font-face {
+    font-family:Roboto;
+    src: url('#{$web-font-path}/Roboto.woff')format("woff");
+    font-display: swap;
+}
+

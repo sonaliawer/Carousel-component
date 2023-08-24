@@ -1,0 +1,101 @@
+@font-face {
+  font-family: Roboto;
+  src: url("../assets/Fonts/Roboto.woff") format("woff");
+  font-display: swap;
+}
+* {
+  margin: 0;
+  box-sizing: 0;
+  box-sizing: border-box;
+}
+
+.carousel {
+  width: 800px;
+  margin: 100px auto;
+  background: rgba(9, 123, 136, 0.737254902);
+  display: flex;
+  gap: 86px;
+  align-items: center;
+  border-radius: 8px;
+  padding: 24px;
+  padding-left: 82px;
+  position: relative;
+  align-items: center;
+  justify-content: center;
+}
+.carousel img {
+  height: 220px;
+  transform: scale(1.5);
+  border-radius: 8px;
+  box-shadow: 0 12px 10px rgba(0, 0, 0, 0.1);
+}
+.carousel_testimonial-text {
+  color: #f8f4f9;
+  line-height: 1.6;
+  margin-bottom: 32px;
+}
+.carousel_author-name {
+  font-size: 14px;
+  color: #f0ebf1;
+  opacity: 0.6;
+  line-height: 1.1;
+}
+.carousel_author-address {
+  font-size: 14px;
+  color: #f0ebf1;
+  opacity: 0.6;
+  line-height: 1.1;
+  margin-top: 4px;
+}
+.carousel .btn {
+  width: 40px;
+  height: 40px;
+  background-color: #fff;
+  outline: none;
+  border: none;
+  border-radius: 50%;
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.2);
+}
+
+.btn-icon {
+  width: 25px;
+  height: 25px;
+  color: rgba(9, 123, 136, 0.737254902);
+}
+
+.btn--left {
+  left: 0;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.btn--right {
+  right: 0;
+  top: 50%;
+  transform: translate(50%, -50%);
+}
+
+.dots {
+  display: flex;
+  position: absolute;
+  gap: 12px;
+  bottom: 0;
+  left: 50%;
+  transform: translate(-50%, 32px);
+}
+.dots_dot {
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  border: 1px solid rgba(9, 123, 136, 0.737254902);
+  outline: none;
+}
+
+.dot--fill {
+  background-color: rgba(9, 123, 136, 0.737254902);
+}/*# sourceMappingURL=main.css.map */
